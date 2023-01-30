@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font: #926239;
+    font-size: 14px;
+    margin: 0%;
+}
+#first{
+    background-image: url(seaa.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    color: #926239;
+}
+#first h1{
+    font-size: 50px;
+}
+#first p{
+    font-size: 20px;
+}
+#first .button{
+    color:#926239;
+    background-color: #f4f4f4;
+    text-decoration: none;
+    border: 1px solid #926239;
+    padding:10px 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+#first .button:hover{
+    background-color: #926239;
+    color: #fff;
+}
+
+
+#section-a{
+    background-color: #926239;
+    color:#fff;
+padding: 20px;
+text-align: center;
+}
+#section-b{
+    background-color: #f4f4f4;
+    color:#926239;
+    text-align: center;
+    padding: 20px;
+}
+
+#section-c{
+    display: flex;
+}
+#section-c .box1,#section-c .box3{
+    background-color: #926239;
+    color: #f4f4f4;
+}
+#section-c div{
+    padding: 20px;
+}
+@media(max-width:768px){
+    #section-a{
+        padding: 10px;
+    text-align: center;
+    }
+
+    #section-b{
+    
+        text-align: center;
+        padding: 10px;
+    }
+
+    #section-c{
+        display: flex;
+    }
+    #section-c .box1,#section-c .box3{
+        background-color: #926239;
+        color: #f4f4f4;
+    }
+    #section-c div{
+        padding: 10px 10px;
+        position: relative;
+    }
+
+
+}
+@media(max-width:400px){
+    #section-c{
+        display: block;
+        gap: 1.5rem;
+        width: 100%;
+        /* background-color: blue; */
+    }
+   
+}
